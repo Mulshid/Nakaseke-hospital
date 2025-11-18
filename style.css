@@ -1,0 +1,150 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f2f6fc;
+  color: #333;
+}
+
+header {
+  background-color: #0077cc;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 15px;
+  display: inline-block;
+}
+
+nav a:hover {
+  background-color: #005fa3;
+  border-radius: 5px;
+}
+.logo {
+  height: 50px;
+  vertical-align: left;
+    margin-right: 10px;
+
+}
+
+section {
+  padding: 20px;
+  margin: 10px auto;
+  width: 90%;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+footer {
+  background-color: #0077cc;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 15px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #0077cc;
+  color: white;
+}
+
+td, th {
+  padding: 10px;
+  text-align: left;
+}
+
+button {
+  background-color: #0077cc;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
+.photos{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+
+
+}
+.photo {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+
+}
+.photo img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+
+}
+.photo p {
+    text-align: center;
+    margin-top: 8px;
+    font-size: 14px;
+    color: #555;
+}
+
+.photo:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+}
+.fa-location-dot {
+  color: red;
+  margin-right: 8px;
+
+}
+.fa-phone {
+  color: green;
+  margin-right: 8px;
+
+}
+.fa-envelope {
+  color: orange;
+  margin-right: 8px;
+
+}
+.fa-globe {
+  color: blue;
+  margin-right: 8px;
+
+}
+.contact-info {
+  list-style: none;
+  padding: 0;
+}
+.contact-info li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
