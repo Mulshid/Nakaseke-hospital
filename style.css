@@ -147,4 +147,478 @@ img{
   margin-bottom: 10px;
   font-size: 16px;
 }
+/* ==========================================
+   NAKASEKE INTERNATIONAL HOSPITAL
+   HOMEPAGE ENHANCEMENTS
+========================================== */
 
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #243447;
+    line-height: 1.6;
+}
+
+/* HEADER */
+
+.site-header {
+    background: #006b68;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.hospital-brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.hospital-logo {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+    background: white;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.hospital-title h1 {
+    color: white;
+    font-size: 28px;
+    margin: 0;
+}
+
+.hospital-title p {
+    color: #e0f2f1;
+    margin: 5px 0 0;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.main-nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.main-nav a:hover,
+.main-nav a.active {
+    background: #004d4a;
+}
+
+/* GENERAL SECTIONS */
+
+.section {
+    padding: 70px 8%;
+}
+
+.section-heading {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section-heading h2 {
+    font-size: 32px;
+    color: #006b68;
+    margin: 10px 0;
+}
+
+.section-subtitle {
+    color: #009688;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/* BUTTONS */
+
+.btn {
+    display: inline-block;
+    padding: 13px 24px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-primary {
+    background: #008577;
+    color: white;
+}
+
+.btn-primary:hover {
+    background: #005f55;
+}
+
+.btn-secondary {
+    background: white;
+    color: #006b68;
+}
+
+.btn-secondary:hover {
+    background: #e0f2f1;
+}
+
+.btn-light {
+    background: white;
+    color: #006b68;
+}
+
+/* HERO */
+
+.hero {
+    min-height: 480px;
+    background: linear-gradient(
+        135deg,
+        #004d4a,
+        #008577
+    );
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 80px 20px;
+    color: white;
+}
+
+.hero-content {
+    max-width: 850px;
+}
+
+.hero-label {
+    color: #c8f7ec;
+    font-weight: bold;
+}
+
+.hero h2 {
+    font-size: 46px;
+    color: white;
+    margin: 20px 0;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+/* ABOUT */
+
+.about-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+}
+
+.about-text h3 {
+    color: #006b68;
+}
+
+.about-image img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+/* SERVICES */
+
+.services-section {
+    background: #f4f9f8;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.service-card {
+    background: white;
+    padding: 35px 25px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.06);
+    transition: 0.3s;
+}
+
+.service-card:hover {
+    transform: translateY(-6px);
+}
+
+.service-card i {
+    font-size: 38px;
+    color: #008577;
+}
+
+.service-card h3 {
+    color: #006b68;
+}
+
+.section-action {
+    text-align: center;
+    margin-top: 35px;
+}
+
+/* FACILITIES */
+
+.photos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.photo {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+
+.photo img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+}
+
+.photo h3 {
+    color: #006b68;
+    padding: 0 20px;
+}
+
+.photo p {
+    padding: 0 20px 20px;
+}
+
+/* WHY CHOOSE US */
+
+.why-choose-us {
+    background: #f4f9f8;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.feature-card {
+    text-align: center;
+    background: white;
+    padding: 30px 20px;
+    border-radius: 12px;
+}
+
+.feature-card i {
+    font-size: 35px;
+    color: #008577;
+}
+
+.feature-card h3 {
+    color: #006b68;
+}
+
+/* APPOINTMENTS */
+
+.appointment-section {
+    background: #006b68;
+    color: white;
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.appointment-content {
+    max-width: 750px;
+    margin: auto;
+}
+
+.appointment-section h2 {
+    color: white;
+    font-size: 34px;
+}
+
+/* EMERGENCY */
+
+.emergency-box {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background: #fff4ed;
+    border-left: 6px solid #e76f32;
+    padding: 35px;
+    border-radius: 10px;
+}
+
+.emergency-icon {
+    font-size: 45px;
+    color: #e76f32;
+}
+
+.emergency-text {
+    flex: 1;
+}
+
+/* LOCATION */
+
+.location-section {
+    background: #f4f9f8;
+}
+
+.location-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+}
+
+.location-info h3 {
+    color: #006b68;
+}
+
+.location-map iframe {
+    border-radius: 12px;
+}
+
+.map-note {
+    font-size: 12px;
+    color: #5f6b73;
+}
+
+/* FOOTER */
+
+.site-footer {
+    background: #003f3d;
+    color: white;
+    padding: 55px 8% 20px;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.footer-column h3 {
+    color: white;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column li {
+    margin-bottom: 10px;
+}
+
+.footer-column a {
+    color: #d5efeb;
+    text-decoration: none;
+}
+
+.footer-column a:hover {
+    color: white;
+}
+
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid rgba(255,255,255,0.2);
+    margin-top: 35px;
+    padding-top: 20px;
+}
+
+/* TABLETS */
+
+@media (max-width: 992px) {
+
+    .services-grid,
+    .photos {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .features-grid,
+    .footer-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+    .section {
+        padding: 45px 5%;
+    }
+
+    .hospital-brand {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .hospital-title h1 {
+        font-size: 22px;
+    }
+
+    .hero h2 {
+        font-size: 32px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .about-content,
+    .services-grid,
+    .photos,
+    .features-grid,
+    .location-content,
+    .footer-container {
+        grid-template-columns: 1fr;
+    }
+
+    .emergency-box {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .section-heading h2 {
+        font-size: 26px;
+    }
+
+    .main-nav {
+        gap: 5px;
+    }
+
+    .main-nav a {
+        font-size: 13px;
+        padding: 9px;
+    }
+
+}
