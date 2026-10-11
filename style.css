@@ -622,3 +622,276 @@ body {
     }
 
 }
+/* ==========================================
+   NAKASEKE INTERNATIONAL HOSPITAL
+   ABOUT US PAGE
+========================================== */
+
+/* ABOUT HERO */
+
+.about-hero {
+    background: linear-gradient(
+        135deg,
+        #004d4a,
+        #008577
+    );
+
+    color: white;
+    text-align: center;
+    padding: 85px 20px;
+}
+
+.about-hero-content {
+    max-width: 850px;
+    margin: auto;
+}
+
+.about-hero h2 {
+    color: white;
+    font-size: 42px;
+    margin: 15px 0;
+}
+
+.about-hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* HOSPITAL HISTORY */
+
+.hospital-history {
+    background: #f4f9f8;
+}
+
+.history-container {
+    max-width: 1050px;
+    margin: auto;
+}
+
+.history-intro {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.history-intro h3 {
+    color: #006b68;
+}
+
+.history-note {
+    font-size: 13px;
+    color: #687782;
+    font-style: italic;
+}
+
+.history-timeline {
+    position: relative;
+    border-left: 3px solid #008577;
+    padding-left: 35px;
+    margin-left: 20px;
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 35px;
+}
+
+.timeline-icon {
+    position: absolute;
+    left: -60px;
+    top: 10px;
+    width: 48px;
+    height: 48px;
+    background: #008577;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 19px;
+}
+
+.timeline-content {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.06);
+}
+
+.timeline-date {
+    color: #008577;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.timeline-content h3 {
+    color: #006b68;
+    margin-top: 10px;
+}
+
+/* MISSION AND VISION */
+
+.mission-vision-section {
+    background: white;
+}
+
+.mission-vision-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.mission-card,
+.vision-card {
+    background: #f4f9f8;
+    padding: 40px;
+    border-radius: 12px;
+    text-align: center;
+    border-top: 5px solid #008577;
+}
+
+.mission-icon {
+    font-size: 40px;
+    color: #008577;
+}
+
+.mission-card h3,
+.vision-card h3 {
+    color: #006b68;
+    font-size: 25px;
+}
+
+/* CORE VALUES */
+
+.values-section {
+    background: #f4f9f8;
+}
+
+.values-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.value-card {
+    background: white;
+    text-align: center;
+    padding: 35px 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    transition: 0.3s;
+}
+
+.value-card:hover {
+    transform: translateY(-5px);
+}
+
+.value-card i {
+    font-size: 38px;
+    color: #008577;
+}
+
+.value-card h3 {
+    color: #006b68;
+}
+
+/* HEALTHCARE TEAM */
+
+.team-section {
+    background: white;
+}
+
+.team-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+}
+
+.team-image img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.team-description h3 {
+    color: #006b68;
+    font-size: 27px;
+}
+
+/* COMMITMENT */
+
+.commitment-section {
+    background: #f4f9f8;
+}
+
+.commitment-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.commitment-card {
+    background: white;
+    padding: 35px 25px;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.commitment-card i {
+    color: #008577;
+    font-size: 36px;
+}
+
+.commitment-card h3 {
+    color: #006b68;
+}
+
+/* TABLETS */
+
+@media (max-width: 992px) {
+
+    .values-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .commitment-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+    .about-hero {
+        padding: 60px 20px;
+    }
+
+    .about-hero h2 {
+        font-size: 30px;
+    }
+
+    .mission-vision-grid,
+    .values-grid,
+    .team-content,
+    .commitment-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .history-timeline {
+        margin-left: 15px;
+        padding-left: 25px;
+    }
+
+    .timeline-icon {
+        left: -50px;
+        width: 42px;
+        height: 42px;
+    }
+
+    .mission-card,
+    .vision-card {
+        padding: 25px;
+    }
+
+}
