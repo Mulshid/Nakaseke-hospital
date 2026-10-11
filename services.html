@@ -1,99 +1,472 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Services - Nakaseke International Hospital</title>
-  <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Explore the healthcare services offered by Nakaseke International Hospital in Nakaseke District, Uganda.">
+
+    <title>Our Services | Nakaseke International Hospital</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
+
 <body>
-  <header>
-       <p><img src="logo.jpg" class="logo" alt=""> Nakasekenational hospital</p>
-    
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About Us</a>
-      <a href="services.html">Services</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </header>
 
-  <section>
-    <h1>Our Services</h1>
-    <p>At Nakaseke International Hospital, we offer a wide range of medical services to cater to your health needs.</p>   
-    <table border="1" cellspacing="0" cellpadding="10">
-      <tr>
-        <th>Department</th>
-        <th>Service Offered</th>
-        <th>Availability</th>
-      </tr>
-      <tr>
-        <td>Emergency</td>
-        <td>24/7 Emergency Response</td>
-        <td>Always Open</td>
-      </tr>
-      <tr>
-        <td>Maternity</td>
-        <td>Antenatal & Delivery</td>
-        <td>Mon–Sat</td>
-      </tr>
-      <tr>
-        <td>Pharmacy</td>
-        <td>Drugs & Medical Supplies</td>
-        <td>Mon–Sun</td>
-      </tr>
-      <tr>
-        <td>Lab</td>
-        <td>Blood Tests, Scans, Diagnosis</td>
-        <td>Mon–Sat</td>
-      </tr>
-      <tr>
-        <td>Special care baby unit (SCBU)</td>
-        <td>A14-20 bed unit, incubators&Oxygen for neonatal critial care.</td>
-        <td>Mon–Sat</td>
-      </tr>
-      <tr>
-        <td>Neonatal care</td>
-        <td>Specializes in Treating premature babies, infants with complications like resporatory issues</td>
-        <tr>
-          <td>Outpatient care</td>
-          <td>The hospital admits a high number of inpatients</td>
-          <td>Mon–Sat</td>
-        </tr>
-        <td>Operational issues</td>
-        <td>pediatricians,anesthetists and gynecialists</td>
-        <td>Mon–Sat</td>
-      </tr>
-      <td>Antimicrobial stewardship</td>
-      <td>promoting responsible antibiotic use and fighting drug-resistant infections</td>
-      <td>Mon–Sat</td>
-    </tr>
-      <td>HIV,TB & DIABETES CLINIC</td>
-      <td>Clinics are available for these specific conditions.</td>
-      <td>Mon–Sat</td>
-  </tr>
-      <td>Internal medicine </td>
-      <td>General internal medicine is provided for various health concerns.</td>
-      <td>Mon–Sat</td>
-    </tr>
+    <!-- HEADER -->
+    <header class="site-header">
 
-  </tr>
-    </tr>
+        <div class="hospital-brand">
 
-  </tr>
-    </tr>
+            <img
+                src="logo.jpg.jpg"
+                alt="Nakaseke International Hospital logo"
+                class="hospital-logo"
+            >
 
-  </tr>
-    </tr>
-      </tr>
-    </table>
-  </section>
+            <div class="hospital-title">
+                <h1>Nakaseke International Hospital</h1>
+                <p>Compassion • Care • Excellence</p>
+            </div>
 
-  <footer>
-     <i class="fa-solid fa-location-dot"></i>Nakaseke International Hospital. Nakaseke District-Kyangato
-     <i class="fa-solid fa-location-dot"></i>Cordinates:00⁰43`06"N32⁰ 23"E/0.71833⁰N32.
-    <p>&copy; 2025 Nakaseke International Hospital</p>
-  </footer>
+        </div>
+
+        <nav class="main-nav" aria-label="Main navigation">
+
+            <a href="index.html">
+                <i class="fa-solid fa-house"></i> Home
+            </a>
+
+            <a href="about.html">
+                <i class="fa-solid fa-circle-info"></i> About Us
+            </a>
+
+            <a href="services.html" class="active" aria-current="page">
+                <i class="fa-solid fa-stethoscope"></i> Services
+            </a>
+
+            <a href="contact.html">
+                <i class="fa-solid fa-envelope"></i> Contact
+            </a>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- HERO SECTION -->
+        <section class="services-hero">
+
+            <div class="services-hero-content">
+
+                <span class="section-subtitle">YOUR HEALTH MATTERS</span>
+
+                <h2>Our Medical Services</h2>
+
+                <p>
+                    At Nakaseke International Hospital, we provide a range
+                    of healthcare services to support individuals, mothers,
+                    newborns, children, and families in our community.
+                </p>
+
+                <a href="contact.html" class="services-hero-button">
+                    <i class="fa-solid fa-phone"></i>
+                    Contact the Hospital
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- INTRODUCTION -->
+        <section class="section services-introduction">
+
+            <div class="section-heading">
+
+                <span class="section-subtitle">CARE FOR OUR COMMUNITY</span>
+
+                <h2>Healthcare Services for Different Needs</h2>
+
+                <p>
+                    Explore the departments and services listed below.
+                    For current clinic schedules, specialist availability,
+                    and specific treatment enquiries, please contact
+                    the hospital directly.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- SERVICES GRID -->
+        <section class="section services-list-section">
+
+            <div class="services-grid">
+
+                <!-- EMERGENCY -->
+                <article class="service-card">
+
+                    <div class="service-icon">
+                        <i class="fa-solid fa-truck-medical"></i>
+                    </div>
+
+                    <h3>Emergency Care</h3>
+
+                    <p>
+                        Emergency response and assessment for patients
+                        requiring urgent medical attention.
+                    </p>
+
+                    <span class="service-availability">
+                        <i class="fa-solid fa-clock"></i>
+                        Listed availability: 24/7
+                    </span>
+
+                </article>
+
+
+                <!-- MATERNITY -->
+                <article class="service-card">
+
+                    <div class="service-icon">
+                        <i class="fa-solid fa-person-pregnant"></i>
+                    </div>
+
+                    <h3>Maternity Services</h3>
+
+                    <p>
+                        Antenatal care and delivery services to support
+                        mothers throughout pregnancy and childbirth.
+                    </p>
+
+                    <span class="service-availability">
+                        <i class="fa-solid fa-calendar-days"></i>
+                        Listed availability: Monday–Saturday
+                    </span>
+
+                </article>
+
+
+                <!-- PHARMACY -->
+                <article class="service-card">
+
+                    <div class="service-icon">
+                        <i class="fa-solid fa-prescription-bottle-medical"></i>
+                    </div>
+
+                    <h3>Pharmacy</h3>
+
+                    <p>
+                        Pharmaceutical services involving medicines
+                        and medical supplies.
+                    </p>
+
+                    <span class="service-availability">
+                        <i class="fa-solid fa-calendar-days"></i>
+                        Listed availability: Monday–Sunday
+                    </span>
+
+                </article>
+
+
+                <!-- LABORATORY -->
+                <article class="service-card">
+
+                    <div class="service-icon">
+                        <i class="fa-solid fa-flask-vial"></i>
+                    </div>
+
+                    <h3>Laboratory Services</h3>
+
+                    <p>
+                        Blood tests and other diagnostic investigations
+                        to support medical assessment and treatment.
+                    </p>
+
+                    <span class="service-availability">
+                        <i class="fa-solid fa-calendar-days"></i>
+                        Listed availability: Monday–Saturday
+                    </span>
+
+                </article>
+
+
+                <!-- SCBU -->
+                <article class="service-card">
+
+                    <div class="service-icon">
+                        <i class="fa-solid fa-baby"></i>
+                    </div>
+
+                    <h3>Special Care Baby Unit (SCBU)</h3>
+
+                    <p>
+                        Specialized support for newborns who need
+                        additional monitoring and care. Your supplied
+                        description lists incubators and oxygen
+                        for neonatal critical care.
+                    </p>
+
+                    <span class="service-availability">
+                        <i class="fa-solid fa-calendar-days"></i>
+                        Listed availability: Monday–Saturday
+                    </span>
+
+                </article>
+
+
+                <!-- NEONATAL -->
+                <article class="service-card">
+
+                    <div class="service-icon">
+                        <i class="fa-solid fa-baby-carriage"></i>
+                    </div>
+
+                    <h3>Neonatal Care</h3>
+
+                    <p>
+                        Care for newborn babies, including premature
+                        infants and babies experiencing complications
+                        such as breathing difficulties.
+                    </p>
+
+                    <span class="service-availability">
+                        <i class="fa-solid fa-hospital"></i>
+                        Contact the hospital for details
+                    </span>
+
+                </article>
+
+
+                <!-- OUTPATIENT -->
+                <article class="service-card">
+
+                    <div class="service-icon">
+                        <i class="fa-solid fa-user-doctor"></i>
+                    </div>
+
+                    <h3>Outpatient Care</h3>
+
+                    <p>
+                        Medical assessment and care for patients
+                        who attend consultations without being
+                        admitted to the hospital.
+                    </p>
+
+                    <span class="service-availability">
+                        <i class="fa-solid fa-calendar-days"></i>
+                        Listed availability: Monday–Saturday
+                    </span>
+
+                </article>
+
+
+                <!-- SPECIALIST SERVICES -->
+                <article class="service-card">
+
+                    <div class="service-icon">
+                        <i class="fa-solid fa-user-nurse"></i>
+                    </div>
+
+                    <h3>Specialist Medical Services</h3>
+
+                    <p>
+                        Your supplied information identifies paediatric,
+                        anaesthesia, and gynaecology-related specialist
+                        services. Please confirm current specialist
+                        availability with the hospital.
+                    </p>
+
+                    <span class="service-availability">
+                        <i class="fa-solid fa-calendar-days"></i>
+                        Listed availability: Monday–Saturday
+                    </span>
+
+                </article>
+
+
+                <!-- ANTIMICROBIAL STEWARDSHIP -->
+                <article class="service-card">
+
+                    <div class="service-icon">
+                        <i class="fa-solid fa-shield-virus"></i>
+                    </div>
+
+                    <h3>Antimicrobial Stewardship</h3>
+
+                    <p>
+                        Promoting responsible antibiotic use and
+                        supporting efforts to reduce antimicrobial
+                        resistance and drug-resistant infections.
+                    </p>
+
+                    <span class="service-availability">
+                        <i class="fa-solid fa-calendar-days"></i>
+                        Listed availability: Monday–Saturday
+                    </span>
+
+                </article>
+
+
+                <!-- HIV TB DIABETES -->
+                <article class="service-card">
+
+                    <div class="service-icon">
+                        <i class="fa-solid fa-heart-pulse"></i>
+                    </div>
+
+                    <h3>HIV, TB & Diabetes Clinics</h3>
+
+                    <p>
+                        Clinic services relating to HIV, tuberculosis,
+                        and diabetes, as listed in the hospital's
+                        supplied service information.
+                    </p>
+
+                    <span class="service-availability">
+                        <i class="fa-solid fa-calendar-days"></i>
+                        Listed availability: Monday–Saturday
+                    </span>
+
+                </article>
+
+
+                <!-- INTERNAL MEDICINE -->
+                <article class="service-card">
+
+                    <div class="service-icon">
+                        <i class="fa-solid fa-stethoscope"></i>
+                    </div>
+
+                    <h3>Internal Medicine</h3>
+
+                    <p>
+                        General medical assessment and management
+                        of a range of health conditions affecting
+                        adults.
+                    </p>
+
+                    <span class="service-availability">
+                        <i class="fa-solid fa-calendar-days"></i>
+                        Listed availability: Monday–Saturday
+                    </span>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- SERVICE AVAILABILITY NOTICE -->
+        <section class="services-notice-section">
+
+            <div class="services-notice">
+
+                <div class="services-notice-icon">
+                    <i class="fa-solid fa-circle-info"></i>
+                </div>
+
+                <div>
+                    <h2>Need Information About a Service?</h2>
+
+                    <p>
+                        Service schedules and specialist availability
+                        may change. Contact the hospital to confirm
+                        operating hours, available services, and
+                        appointment arrangements before visiting.
+                    </p>
+
+                    <a href="contact.html" class="services-contact-button">
+                        Contact Us
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+
+        <div class="footer-container">
+
+            <div class="footer-column">
+
+                <h3>Nakaseke International Hospital</h3>
+
+                <p>
+                    Compassionate and professional healthcare
+                    for communities in Nakaseke District, Uganda.
+                </p>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>Quick Links</h3>
+
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>Hospital Location</h3>
+
+                <p>
+                    <i class="fa-solid fa-location-dot"></i>
+                    Nakaseke International Hospital
+                </p>
+
+                <p>Nakaseke District – Kyangato, Uganda</p>
+
+                <p>
+                    <i class="fa-solid fa-location-crosshairs"></i>
+                    Coordinates as supplied: 0.71833°N, 32.23°E
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                &copy; <span id="currentYear"></span>
+                Nakaseke International Hospital. All Rights Reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+    <script>
+        document.getElementById("currentYear").textContent =
+            new Date().getFullYear();
+    </script>
+
 </body>
 </html>
