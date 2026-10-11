@@ -895,3 +895,134 @@ body {
     }
 
 }
+/* ==========================================
+   GLOBAL LAYOUT FIXES
+   NAKASEKE INTERNATIONAL HOSPITAL
+========================================== */
+
+/* Prevent old section styles from interfering
+   with the redesigned pages */
+
+section.section,
+section.hero,
+section.about-hero,
+section.appointment-section {
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+/* Preserve intended section backgrounds */
+
+section.hero {
+    background: linear-gradient(135deg, #004d4a, #008577);
+}
+
+section.about-hero {
+    background: linear-gradient(135deg, #004d4a, #008577);
+}
+
+section.appointment-section {
+    background: #006b68;
+}
+
+section.services-section,
+section.why-choose-us,
+section.location-section,
+section.hospital-history,
+section.values-section,
+section.commitment-section {
+    background: #f4f9f8;
+}
+
+/* Consistent header */
+
+header.site-header {
+    background: #006b68;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Fix logo appearance */
+
+.site-header .hospital-logo {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+    background: white;
+    padding: 5px;
+    border-radius: 50%;
+    box-shadow: none;
+}
+
+/* Consistent navigation */
+
+.site-header .main-nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.site-header .main-nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+}
+
+.site-header .main-nav a:hover,
+.site-header .main-nav a.active {
+    background: #004d4a;
+}
+
+/* Footer consistency */
+
+footer.site-footer {
+    background: #003f3d;
+    color: white;
+    margin-top: 0;
+    text-align: left;
+    padding: 55px 8% 20px;
+}
+
+.site-footer .footer-bottom {
+    text-align: center;
+}
+
+/* Responsive layout */
+
+@media (max-width: 768px) {
+
+    .site-header .hospital-brand {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .site-header .hospital-logo {
+        width: 75px;
+        height: 75px;
+    }
+
+    .site-header .hospital-title h1 {
+        font-size: 22px;
+    }
+
+    .site-header .main-nav {
+        gap: 5px;
+    }
+
+    .site-header .main-nav a {
+        padding: 8px 10px;
+        font-size: 13px;
+    }
+
+    section.section {
+        padding: 45px 5%;
+    }
+
+}
